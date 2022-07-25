@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS入门dianzan函数</title>
+  </head>
+  <body>
+    <!-- onclick监听鼠标的点击行为 当鼠标点击button标签时（初始数据为0） 调用名为dianzan的函数（渲染初始数据） -->
+    <button id="dzs" onclick="dianZan()">0</button>
+    <script>
+      //“=”把右边的值 赋值给左边的数据
+      //let后面的 dianZanShuBiaoQian、dianZanShu、xinShuZi 数据名 都是自定义的名字
+      //点赞 函数    ( ){ }是函数的格式 dianzan是自定义的名字
+      function dianZan() {
+        //放在 名为dianZanShuBiaoQian的数据里 = 浏览器自带的标签选择器函数.通过网页元素 id="dzs"的button标签（获取到点赞数标签）
+        let dianZanShuBiaoQian = window.document.getElementById("dzs");
+        //放在 名为dianZanShu的数据里 = 转化为整数（把dianZanShuBiaoQian.的内部文字）
+        let dianZanShu = parseInt(dianZanShuBiaoQian.innerText);
+        //放在 名为xinShuZi的数据里 = 名为dianZanShu的数据 + 1
+        let xinShuZi = dianZanShu + 1;
+        //dianZanShuBiaoQian.的内部文字 = 名为xinShuZi的数据
+        dianZanShuBiaoQian.innerText = xinShuZi;
+        // 有无都行 这个dianZan函数不需要返回值 只需要渲染画面
+        return;
+      }
+    </script>
+  </body>
+</html>
