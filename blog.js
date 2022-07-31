@@ -15,7 +15,7 @@ const blog = [
   {
     id: 3,
     title: "我的爱好",
-    herf: "https://w522949722.github.io/01changku/CSS%E7%BB%83%E4%B9%A0/paopao",
+    herf: "https://w522949722.github.io/01changku/paopao",
     image: "https://s1.328888.xyz/2022/07/24/mdAZk.jpg",
   },
 ];
