@@ -247,3 +247,49 @@ footer a {
   text-decoration: none;
   color: #999;
 }
+
+@media (orientation: portrait) {
+  .header-title h1 {
+    font-size: 2rem;
+  }
+  #home-contact-email {
+    width: 80vw;
+  }
+
+  .home-blog-content {
+    flex-direction: column;
+  }
+  .home-blog-card {
+    flex: 1 1 0;
+    margin: 30px auto;
+  }
+  .home-blog-img {
+    width: 100%;
+    height: 50%;
+  }
+
+  #home-about {
+    display: block;
+    height: 800px;
+    margin: 0 auto;
+  }
+  #home-about img {
+    margin: 80px auto;
+    width: 50%;
+    height: 180px;
+  }
+  .home-about-content {
+    width: 80%;
+    height: 50%;
+    margin: 60px auto;
+  }
+  .home-about-content > p {
+    width: 100%;
+    line-height: 1.5rem;
+    letter-spacing: 1.5px;
+    text-indent: 2rem;
+  }
+  .home-contact-sentence {
+    width: 85vw;
+  }
+}
