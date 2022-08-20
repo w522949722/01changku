@@ -1,0 +1,14 @@
+* {
+  margin: 0 auto;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+div h2 {
+  color: rgb(255, 191, 191);
+  margin: 20px;
+}

@@ -25,6 +25,8 @@ nav a {
   padding: 5px 1rem;
   /* 鼠标变小手 */
   cursor: pointer;
+  text-decoration: none;
+  color: rgb(255, 191, 191);
 }
 nav a:hover {
   font-weight: 700;
